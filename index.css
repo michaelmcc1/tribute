@@ -13,20 +13,30 @@
     font-size: 3em;
 }
 #image {
-    max-width: 50% ;
+    max-width: 75% ;
     height: auto;
 }
-@media (max-width:460px){
-    font-size: 3em;
-}
+
 ul{
     max-width: 550px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    line-height: 1.6;
+    margin: 0 auto 100px auto;
+    line-height: 2;
 }
 li{
-    margin: 16px 0;
+    margin: 20px 50px; 
 } 
-
+#tribute-info{ 
+    color: blue;
+    text-align:left;
+}
     
+@media (max-width:600px) {
+    #tribute-info{
+        color: red;
+    }
+}
+
+a:hover{
+    text-decoration: none;
+    color: red;
+}
