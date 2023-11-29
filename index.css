@@ -7,8 +7,12 @@
     box-sizing: border-box;
     /* font-size: 20px; */
 }
-#title{
+#title {
     padding-top: 2%;
     /* font-size: 200%; */
     font-size: 3em;
+}
+img {
+    max-width: 50% ;
+    height: auto;
 }
